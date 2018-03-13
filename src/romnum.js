@@ -19,3 +19,27 @@ Romnum.prototype.checkX = function() {
     return "X";
   }
 };
+
+Romnum.prototype.checkL = function() {
+  if ((this.numInput === 50)) {
+    return "L";
+  }
+};
+
+Romnum.prototype.checkC = function() {
+  if ((this.numInput === 100)) {
+    return "C";
+  }
+};
+
+Romnum.prototype.checkD = function() {
+  if ((this.numInput === 500)) {
+    return "D";
+  }
+};
+
+Romnum.prototype.checkM = function() {
+  if ((this.numInput === 1000)) {
+    return "M";
+  }
+};
