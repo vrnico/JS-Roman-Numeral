@@ -13,3 +13,9 @@ Romnum.prototype.checkV = function() {
     return "V";
   }
 };
+
+Romnum.prototype.checkX = function() {
+  if ((this.numInput === 10)) {
+    return "X";
+  }
+};
